@@ -1,0 +1,249 @@
+
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+	<style>
+		body{
+			margin:0;
+			background: linear-gradient(to bottom, #333333 120px, #f44336 350px, #EDEDED 350px, #EDEDED 100%);
+			font-family:georgia,garamond,serif;font-size:14px;
+		}
+		.onHoverDark:hover { background-color: #222222 !important; color: #BABABA !important;}
+		.hrefWithoutDecoration {text-decoration: none !important; color:black !important;}
+		.activeCustom {color:#FFF}
+		.inactiveCustom {color:#A9A9A9}
+	</style>
+
+	<link rel="shortcut icon" type="image/png" href="/static/Images/Profile/profileCircular.png"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Raghu Vamshi's Home Page">
+	<meta name="author" content="Raghu vamshi"
+	<meta charset="UTF-8">
+	<meta name="keywords" content="machine learning, artificial intelligence, coding">
+
+	<meta property="og:title" content="Raghu's HomePage">
+	<meta property="og:image" content="/static/Images/Propic.JPG">
+	<meta property="og:description" content="Raghu Vamshi's Home Page">
+
+	<title>Raghu Hemadri</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110954752-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-110954752-1');
+	</script>
+
+
+</head>
+<body>
+
+<div class="container pt-5 pb-3">
+	<div class="row">
+		<div class="col-lg-8">
+			<div class="row pb-3">
+				<div class="col">
+					<h3 class="text-white">Raghu Vamshi Hemadri</h3>
+				</div>
+			</div>
+
+			<div class="row mt-3 mb-4 text-center">
+				<div class="col-xl-6">
+					<div class="row">
+						<div class="col">
+							<a class="nav-link onHoverDark inactiveCustom" href="/">Home</a>
+						</div>
+						<div class="col">
+							<a class="nav-link onHoverDark inactiveCustom" href="/profile">Profile</a>
+						</div>
+						<div class="col">
+							<a class="nav-link onHoverDark inactiveCustom" href="/research">Research</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="row">
+						<div class="col">
+							<a class="nav-link onHoverDark activeCustom" href="/projects">Projects</a>
+						</div>
+						<div class="col">
+							<a class="nav-link onHoverDark inactiveCustom" href="/publications">Publications</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8">
+
+			<div class="shadow row bg-light mb-5 mt-4 mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Meta Learning without memorization with exact information estimation</h2>
+					<p>Last Updated: 3rd Sept</p>
+					<p>MThis project is improvision over Meta-Learning without Memorization by Mingzhang Yin, George Tucker, Mingyuan Zhou, Sergey Levine, Chelsea Finn. In this paper, the authors approximate the mutual information
+for tractability of loss function. Alternatively, this projects directly maximizes the mutual information without approximation, using the
+MI estimator MINE inturn improving results.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/Meta-Learning-without-memorization-with-exact-information-estimation"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+			
+			<div class="shadow row bg-light mb-5 mt-4 mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Multi-Agent Generative Network (MAGNET)</h2>
+					<p>Last Updated: 3rd Sept</p>
+					<p>MAGNET is a multi agent cooperative learning based architecture for generating new images. MAGNET generates images similar to images in CelebA dataset. 
+					The algorithm of multi-agent cooperative learning is inspired from Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments. This is a dual agent cooperative game than the conventional competitive MAP learning like in GANs. The results are
+better than most of the proposed GAN variants.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/Multi-Agent-Generative-Network"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+			
+			<div class="shadow row bg-light mb-5 mt-4 mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Environment Adaptive Self multi task learning Navigation Robot</h2>
+					<p>Last Updated: 5th May</p>
+					<p>Modified version of the paper ’Composable Action-Conditioned Predictors: Flexible Off-Policy Learning for Robot Navigation’. Simulated RC and a real-world RC car that can gather data and train fully autonomously without any human provided labels beyond those
+          needed to train the detectors, and then at test-time be able to accomplish a variety of multiple tasks(In process of building real-world RC).</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/CAPs"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Non-Convex approaches to RPCA and applications to Computer Vision problems</h2>
+					<p>Last Updated: 26th April</p>
+					<p>The method we developed transcend the problem of low-rank and sparse matrix decomposition and applicable to solve inverse problems often encountered in several areas. We developed an efficient alternative representation corresponding to the mini max-concave penalty
+          (MCP): re-weighed MCP (RMCP). Also developed re-weighted 𝛾 –penalty (RGP), which is the RMCP defined over the singular values of a matrix, as a non convex relaxation to the matrix rank. This work out performs current SOTA which employs a heuristic weight update, and is submitted to IEEE Transactions on PAMI and IEEE
+						CVPR. <a href="https://bit.ly/itgamma_cvpr_paper">Paper </a> <a href="https://bit.ly/itgamma_cvpr_suppmat">Supplementary material</a> </p>
+        <a target="_blank" href="https://github.com/RaghuHemadri/CoRe"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>ChildrEN SafEty Retrieval (CENSER) System for Retrieval of Kidnapped Children from Brothels in Varanasi, India</h2>
+					<p>Last Updated: 26th April</p>
+					<p>CENSER System was developed by me in collaboration with Skylark labs and is being used by Guria non-profit organization in India to retrieve the kidnapped children from brothels in India. The children buying makeup are recorded on the hidden cameras which are used
+by the CENSER system to establish a match with the database of missing children. Since the facial features of children have changed significantly since being kidnapped, the proposed system can perform age-invariant face recognition. A majority of the time, the image
+of the child is not available at the age when he/she was kidnapped. In that case, the CENSER system uses kinship analysis as well as matches with the sketch of the child. This work is submitted to IEEE Transactions on Bio metrics, Behaviour, Identity Science. This system uses Memory Augmented ScatterNet ResNet Hybrid Network inspired from the complementary learning system theory. CENSER has been used in 14 raid operations by Guria (<a href="http://www.guriaindia.org/">http://www.guriaindia.org/</a>) NGO in Varanasi, India and has so far saved 1 girl
+child.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/CENSER"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+			
+			<div class="shadow row bg-light mb-5 mt-4 mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>CoviVac Bot</h2>
+					<p>Last Updated: 3rd Sept</p>
+					<p>This is a simple Telegram bot to, Check slots availability andGet an alert when slots become available. All this with a single click of button.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/covivac-bot"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Training Chat bots with RL</h2>
+					<p>Last Updated: 26th April</p>
+					<p>Created a chat bot using Actor Critic Method on the Cornell Movie-Dialogues Corpus. Pre-trained the seq2seq model using cross entropy
+method and fine tuned it using A2C method.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/ChatBot"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Stocks Trading using RL</h2>
+					<p>Last Updated: 26th April</p>
+					<p>Created a trading agent and custom Gym environment using RL. Designed two different architectures: a feed-forward network with
+price history on input and a 1D convolution network. Both architectures used the DQN method.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/Stock-Trading-using-RL"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Mask Detection and Offender Recognition(MADOR) System</h2>
+					<p>Last Updated: 26th April</p>
+					<p>(MADOR) System was developed by me in collaboration with Skylark labs. Masks have been made mandatory by governments in several countries amid the COVID-19 pandemic. Our MADOR system can detect individuals without mask, using deep learning, and alerts (system
+          or phone, messages) the authorities. The faces of the offenders can also be added to the database and recognised later by matching against a database.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>An Intelligent Communication System based on 𝛽-VAE</h2>
+					<p>Last Updated: 26th April</p>
+					<p>Designed a new communication system based on Variational Auto Encoders. The designed system can operate under Additive Wide Gaussian Noise (AWGN) and Rayleigh fading channels. The CNN based VAE architecture performs the encoding and modulation at the
+          transmitter, whereas decoding and demodulation at the receiver.This work is submitted to Transactions on communications and wireless networks</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/AEVBComm"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+			<div class="row bg-light mb-5 shadow mx-1">
+				<div class="px-4 pt-3 pb-4">
+					<h2>Meta-heuristics and it’s applications to color quantization</h2>
+					<p>Last Updated: 26th April</p>
+					<p>Studied different meta-heuristic algorithms and color-quantization methods and developed a new color-quantization algorithm based
+          on JAYA algorithm. This work is presented in a conference.</p>
+					<a target="_blank" href="https://github.com/RaghuHemadri/"><button type="button" class="btn btn-light btn-outline-dark">GitHub Implementation</button></a>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="col-lg-4 pt-5">
+			<div class="row py-5 px-4 bg-light mb-5 shadow mx-1">
+				<div class="col text-center">
+					<img class="pb-5" src="images/Propic.JPG" width="100%" style="max-width: 300px">
+					<p class="para" style="text-align: justify; text-justify: inter-word" >
+				&emsp;	I am a 2021 B.Tech graduate student at the National Institute of Technology,
+							Warangal, from Electronics and Communication Engineering. I started research in machine
+							learning in my freshman year of UG. My propensity to research led me to take up various
+							internships and research projects during my undergraduate study. I have collaborations at
+							the Indian Institute of Science, Bangalore; the Indian Institute of Technology, Dharwad, and
+							I also worked as a part-time Machine Learning Researcher at Skylark Labs LLC.
+							<br>
+							<br>
+							&emsp; During my projects, I explored various domains of ML including non-convex
+							optimization, Deep Learning, Computer Vision, Deep Reinforcement Learning, and Meta learning. I'm
+							currently seeking positions to pursue MSc or a Ph.D.<br>
+					</p>
+				</div>
+			</div>
+
+			<div class="row pt-5 pb-3 pl-3 bg-light mb-5 shadow mx-1">
+				<div class="col">
+					<h5 class="pb-2"><b>Contact Information</b></h5>
+					<p>
+						<a href="mailto:vamshi.hemadri@gmail.com"><strong>Gmaild: </strong> vamshi.hemadri@gmail.com</a><br><br>
+						<a href="https://www.linkedin.com/in/raghu-vamshi-hemadri-8ab78362/"><strong>LinkedIn</strong> </a><br><br>
+						<a href="https://scholar.google.co.in/citations?user=eb3JyOoAAAAJ&hl=en"><strong>Google Scholar</strong> </a><br><br>
+						<a href="https://github.com/RaghuHemadri"><strong>GitHub</strong> </a><br><br>
+						<a href="https://orcid.org/0000-0002-0272-9714"><strong>Orcid</strong> </a><br><br>
+						<a href="https://www.facebook.com/vamshi.hemadri"><strong>Facebook</strong> </a><br><br>
+						<a href="tel:+91 90004 38694"><strong>Call: +91 90004 38694</strong> </a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
